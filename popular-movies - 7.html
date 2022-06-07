@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agents of S.H.I.E.L.D</title>
+    <!--CSS-->
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <!--Icono superior pantalla-->
+
+    <link rel="shorcut icon" href="img/film.png" type="image/x-icon">
+
+    <!-- Iconos-->
+
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <!--Header -->
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+            <!-- Logo -->
+            <a href="index.html" class="logo">
+                Lion's Film
+            </a>
+            <!-- Barra de búsqueda  -->
+            <div class="search-box">
+                <input type="search" name="" id="search-input" placeholder="Buscar película">
+                <i class='bx bx-search-alt'></i>
+            </div>
+            <!-- Usuario -->
+            <a href="login.html" class="user">
+                <img src="img/user.jpg" alt="" class="user-img">
+            </a>
+            <!-- NavBar -->
+            <div class="navbar">
+
+               <a href="index.html" class="nav-link  nav-active" >
+                <i class='bx bxs-home'></i>
+                <span class="nav-link-title">Home</span>
+               </a>
+                
+               <a href="#home" class="nav-link">
+                <i class='bx bxs-hot' ></i>
+                <span class="nav-link-title">Trending</span>
+               </a>
+
+               <a href="#home" class="nav-link">
+                <i class='bx bxs-compass'></i>
+                <span class="nav-link-title">Explore</span>
+               </a>
+
+               <a href="#home" class="nav-link">
+                <i class='bx bxs-camera-movie'></i>
+                <span class="nav-link-title">Movies</span>
+               </a>
+
+               <a href="#home" class="nav-link">
+                <i class='bx bxl-android bx-flip-horizontal'></i>
+                <span class="nav-link-title">APP</span>
+               </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Reproducir Película Contenedor -->
+    <div class="play-container container">
+        <!-- Play imagen -->
+        <img src="popular-movies/Agents of S.H.I.E.L.D/agents.PNG" alt="" class="play-img">
+        <!-- Texto -->
+        <div class="play-text">
+            <h2>Agents of S.H.I.E.L.D</h2>
+            <div class="rating">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>
+            </div>
+            <div class="tags">
+               <span>Action</span>
+               <span>4K</span>    
+            </div>
+            <!-- Botón del Trailer -->
+            <a href="#" class="watch-btn">
+                <i class='bx bx-right-arrow'></i>
+                <span>Watch the trailer</span>
+            </a>
+        </div>
+        <!-- Botón de reproducción -->
+        <i class='bx bx-right-arrow play-movie'></i>
+        <!-- Contenedor del vídeo -->
+        <div class="video-container">
+            <div class="video-box">
+                <video id="myvideo"  src="popular-movies/Agents of S.H.I.E.L.D/Agents.mp4" controls></video>
+                <!-- Icono cerrar video -->
+                <i class='bx bx-x close-video'></i>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Información de la película -->
+    <div class="about-movie container">
+        <h2>Agents of S.H.I.E.L.D</h2>
+        <p> An elite team of fellow agents, part of the police organization known as S.H.I.E.L.D., investigates strange occurrences
+         around the world and protects ordinary citizens from the extraordinary. Each of its members brings a specialty to the
+          group and they work to protect those who cannot defend themselves from extraordinary and inconceivable threats.
+        </p>
+        <!-- Reparto -->
+        <h2 class="cast-heading">Movie Cast</h2>
+        <div class="cast">
+            <div class="cast-box">
+                <img src="popular-movies/Agents of S.H.I.E.L.D/clark.PNG" alt="" class="cast-img">
+            <span class="cast-title">Clark Gregg</span>
+            </div>
+            <div class="cast-box">
+                <img src="popular-movies/Agents of S.H.I.E.L.D/chloe.PNG" alt="" class="cast-img">
+            <span class="cast-title">Chloe Bennet</span>
+            </div>
+            <div class="cast-box">
+                <img src="popular-movies/Agents of S.H.I.E.L.D/Ming-Na Wen.PNG" alt="" class="cast-img">
+            <span class="cast-title">Ming-Na Wen</span>
+            </div>
+            <div class="cast-box">
+                <img src="popular-movies/Agents of S.H.I.E.L.D/Iain De Caestecker.PNG" alt="" class="cast-img">
+            <span class="cast-title">Iain De Caestecker</span>
+            </div>
+            <div class="cast-box">
+                <img src="popular-movies/Agents of S.H.I.E.L.D/Elizabeth Henstridge.PNG" alt="" class="cast-img">
+            <span class="cast-title">Elizabeth Henstride</span>
+            </div>
+            <div class="cast-box">
+                <img src="popular-movies/Agents of S.H.I.E.L.D/brett.PNG" alt="" class="cast-img">
+            <span class="cast-title">Brett Dalton</span>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Descargar-->
+    <div class="download">
+        <h2 class="download-title">Download Movie</h2>
+        <div class="download-links">
+            <a href="popular-movies/Agents of S.H.I.E.L.D/Agents.mp4" download>480p</a>
+            <a href="popular-movies/Agents of S.H.I.E.L.D/Agents.mp4" download>720p</a>
+            <a href="popular-movies/Agents of S.H.I.E.L.D/Agents.mp4" download>1080p</a>
+        </div>
+    </div>
+    
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>&#169; Lion's Film All Right Reserved</p>
+    </div>
+
+    <!-- Link Swiper -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!--Link Java Script-->
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
